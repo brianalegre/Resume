@@ -5,7 +5,7 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 
 // Import Data
-import resumeData from './resume.js'
+import resumeData from './resumeData.js'
 
 // App
 function App() {
