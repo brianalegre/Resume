@@ -53,12 +53,24 @@ const resumeData = [
         ]
     },
     {
-        "experience": [
+        "work": [
             {
-                "company": "The Home Depot",
-                "position": "Sales Associate",
-                "startDate": "2019-01-01",
-                "endDate": "2020-01-01",
+                "company": "Western Digital Corp.",
+                "position": "Lead Technician V",
+                "website": "https://www.westerndigital.com/",
+                "location": "Irvine, CA",
+                "isCurrentRole": true,
+                "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
+                "highlights": [
+                    "Developed an improved system for querieing people information, and enriching data with outside sources.",
+                    "Improved CI/CD pipeline to make deployments faster and more reliable.",
+                    "Developed new features to help users navigate through potential leads by location or relevent skills."
+                ],
+                "startDate": "2012-10-01",
+                "start": {
+                    "year": 2012,
+                    "month": 10
+                }
             }
         ]
     },
