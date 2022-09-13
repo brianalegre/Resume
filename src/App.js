@@ -4,6 +4,7 @@ import './App.css';
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import WorkExp from './components/WorkExp'
+import Education from './components/Education'
 
 // Import Data
 import resumeData from './resumeData.js'
@@ -15,7 +16,7 @@ function App() {
       <AboutMe />
       <Projects resumeData={resumeData} />
       <WorkExp resumeData={resumeData} />
-
+      <Education resumeData={resumeData} />
     </>
   )
 }

@@ -74,6 +74,25 @@ const resumeData = [
             }
         ]
     },
+    {
+        "education": [
+            {
+                "institution": "University of California, Irvine",
+                "area": "Computer Science",
+                "studyType": "Coding Certificate",
+                "startDate": "",
+                "endDate": "2022",
+
+            },
+            {
+                "institution": "Westwood College",
+                "area": "Computer Science",
+                "studyType": "Bachelor of Science",
+                "startDate": "",
+                "endDate": "2009",
+            }
+        ],
+    }
 ]
 
 export default resumeData
