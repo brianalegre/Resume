@@ -92,6 +92,49 @@ const resumeData = [
                 "endDate": "2009",
             }
         ],
+    },
+    {
+        "stacks": [
+            {
+                "keywords": [
+                    "HTML", 
+                    "Javascript",
+                    "React",
+                    "Handlebars",
+                ],
+                "name": "Frontend"
+            },
+            {
+                "keywords": [
+                    "Node",
+                    "MongoDB",
+                    "MySQL",
+                    "AWS",
+                    "NoSQL",
+                    "GraphQL"
+                ],
+                "name": "Backend"
+            },
+            {
+                "keywords": [
+                    "Javascript",
+                    "Bash",
+                    "Powershell",
+                ],
+                "name": "Languages"
+            },
+            {
+                "keywords": [
+                    "Figma",
+                    "CSS",
+                    "Bootstrap",
+                    "Tailwind",
+                    "Material UI",
+                    "Framer Motion"
+                ],
+                "name": "Design"
+            }
+        ],
     }
 ]
 
