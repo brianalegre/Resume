@@ -97,7 +97,7 @@ const resumeData = [
         "stacks": [
             {
                 "keywords": [
-                    "HTML", 
+                    "HTML",
                     "Javascript",
                     "React",
                     "Handlebars",
@@ -135,6 +135,35 @@ const resumeData = [
                 "name": "Design"
             }
         ],
+    },
+    {
+        "me": {
+            "name": "Brian Alegre",
+            "picture": "",
+            "title": "Software Engineer",
+            "email": "brianalegre1231@gmail.com",
+            "location": {
+                "city": "Orange County",
+                "region": "California",
+                "countryCode": "USA"
+            },
+            "profiles": [
+                {
+                    "network": "GitHub",
+                    "username": "brianalegre",
+                    "url": "https://github.com/brianalegre"
+                },
+                {
+                    "network": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/brian-alegre",
+                    "username": "brian-alegre"
+                },
+                {
+                    "network": "Portfolio",
+                    "url": "https://brianalegre.github.io/20-React-Portfolio/"
+                }
+            ]
+        }
     }
 ]
 
