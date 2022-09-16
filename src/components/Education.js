@@ -11,21 +11,17 @@ function Education(resumeData) {
     // Map through work
     const eduList = education.map((school, index) => {
         return (
-            <div>
-                <ul className="space-y-2">
-                    <li className="text-gray-600 space-y-2">
-                        <div>
-                            <p>
-                                <span className="font-bold text-gray-800">{school.area}, {school.studyType}, </span>
-                                {school.institution}
-                            </p>
-                            <p className="text-sm">
-                                {school.endDate}
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <li key={school + index} className="text-gray-600 space-y-2">
+                <div>
+                    <p>
+                        <span className="font-bold text-gray-800">{school.area}, {school.studyType}, </span>
+                        {school.institution}
+                    </p>
+                    <p className="text-sm">
+                        {school.endDate}
+                    </p>
+                </div>
+            </li>
         )
     })
 
@@ -37,7 +33,10 @@ function Education(resumeData) {
                 </p>
                 <div className="bg-fuchsia-700 absolute bg-opacity-50 w-12 top-4 z-10 h-6 rounded-sm"></div>
             </div>
-            {eduList}
+            <ul className="space-y-2">
+                {eduList}
+            </ul >
+
         </div>
     )
 
