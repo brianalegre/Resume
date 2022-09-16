@@ -28,11 +28,11 @@ function Stacks(resumeData) {
         <div>
             <div className="flex my-4 relative">
                 <p className="font-semibold text-left z-20 bg-gray-800 rounded-sm p-1 pr-12 text-gray-100 flex items-center justify-center">
-                    {stacksList}
+                    Stacks
                 </p>
                 <div className="bg-fuchsia-700 absolute bg-opacity-50 w-12 top-4 z-10 h-6 rounded-sm"></div>
             </div>
-
+            {stacksList}
         </div>
 
     )
