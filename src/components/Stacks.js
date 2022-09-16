@@ -14,14 +14,13 @@ function Stacks(resumeData) {
     // Map through skills
     const stacksList = stacks.map((stack, index) => {
         return (
-            <li class="space-x-3">
-                <span class="font-bold">{stack.name}</span>
-                {/* Map each keyword from stacks */}
-
-
-
-                {/* <span class="space-x-1 text-gray-600">{{ #each keywords }} <span>{{ this}}</span>{{ #if @last}}{{ else}}, {{/if}}{{/ each}}</span> */}
-            </li>
+            <ul>
+                <li key={stack + index} className="space-x-3">
+                    <span class="font-bold">{stack.name}</span>
+                    {/* Map each keyword from stacks */}
+                    {/* <span class="space-x-1 text-gray-600">{{ #each keywords }} <span>{{ this}}</span>{{ #if @last}}{{ else}}, {{/if}}{{/ each}}</span> */}
+                </li>
+            </ul>
         )
     })
 
@@ -33,9 +32,7 @@ function Stacks(resumeData) {
                 </p>
                 <div className="bg-fuchsia-700 absolute bg-opacity-50 w-12 top-4 z-10 h-6 rounded-sm"></div>
             </div>
-            <ul>
 
-            </ul>
         </div>
 
     )
