@@ -139,7 +139,7 @@ const resumeData = [
     {
         "me": {
             "name": "Brian Alegre",
-            "picture": "",
+            "picture": "./images/selfie.jpg",
             "title": "Software Engineer",
             "email": "brianalegre1231@gmail.com",
             "location": {
