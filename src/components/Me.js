@@ -23,7 +23,7 @@ function Me(resumeData) {
                 </div>
                 <p>{me.title}</p>
             </div>
-            <a itemProp="email" href="mailto:{{basics.email}}" className="cursor-pointer transition-colors duration-150 ease-in-out {{hoverAccent}} underline text-sm">
+            <a itemProp="email" href="mailto:{{basics.email}}" className="cursor-pointer transition-colors duration-150 ease-in-out underline text-sm hover:text-fuchsia-700">
                 {me.email}
             </a>
             <p className="text-sm">{me.location.city}</p>
