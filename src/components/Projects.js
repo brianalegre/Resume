@@ -1,6 +1,10 @@
 // Import React
 import React from 'react';
 
+// Import React Icons
+import { AiFillGithub } from 'react-icons/ai'
+import { FiExternalLink } from 'react-icons/fi'
+
 
 // Projects component
 function Projects(resumeData) {
@@ -15,8 +19,8 @@ function Projects(resumeData) {
                 <div className="col-span-2 lg:col-span-1 text-gray-600">
                     <div className="flex items-center space-x-2">
                         <p className="font-bold text-gray-800">{project.name}</p>
-                        <a aria-label="GitHub" href={project.githubUrl}>G Icon</a>
-                        <a aria-label={project.name} href={project.website}>L Icon</a>
+                        <a aria-label="GitHub" href={project.githubUrl}><AiFillGithub className='hover:text-fuchsia-700' /> </a>
+                        <a aria-label={project.name} href={project.website}><FiExternalLink className='hover:text-fuchsia-700' /> </a>
                     </div>
                     <p>{project.summary}</p>
                 </div>
