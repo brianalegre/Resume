@@ -16,14 +16,18 @@ import resumeData from './resumeData.js'
 // App
 function App() {
   return (
-    <>
-      <Me resumeData={resumeData} />
-      <AboutMe />
-      <Projects resumeData={resumeData} />
-      <WorkExp resumeData={resumeData} />
-      <Education resumeData={resumeData} />
-      <Stacks resumeData={resumeData} />
-    </>
+    <main class="h-full w-screen flex flex-col">
+      <div class="max-w-6xl p-6 mx-auto flex-grow">
+        <div class="grid grid-cols-12 gap-0 lg:gap-0 h-full mt-6">
+          <Me resumeData={resumeData} />
+          <AboutMe />
+          <Projects resumeData={resumeData} />
+          <WorkExp resumeData={resumeData} />
+          <Education resumeData={resumeData} />
+          <Stacks resumeData={resumeData} />
+        </div>
+      </div>
+    </main>
   )
 }
 

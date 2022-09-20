@@ -5,7 +5,7 @@ import React from 'react';
 // AboutMe component
 function AboutMe() {
     return (
-        <div>
+        <div className="lg:col-span-8 col-span-12 w-full h-full">
             <div className="flex my-4 relative">
                 <p className="font-semibold text-left z-20 bg-gray-800 rounded-sm p-1 pr-12 text-gray-100 flex items-center justify-center">
                     About Me

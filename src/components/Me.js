@@ -15,7 +15,7 @@ function Me(resumeData) {
     const { me } = resumeData.resumeData[4]
 
     return (
-        <div>
+        <div className="lg:col-span-4 mb-36 col-span-12 h-12 flex flex-col items-center lg:items-start">
             <div className="space-y-2">
                 <div className="flex lg:flex-row flex-col items-center space-x-4">
                     <img itemProp="image" alt={me.name} className="object-cover h-12 w-12 lg:rounded-lg rounded-full" src={me.picture} />
