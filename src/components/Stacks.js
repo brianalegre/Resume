@@ -9,15 +9,26 @@ function Stacks(resumeData) {
     const { stacks } = resumeData.resumeData[3]
     console.log(stacks)
 
-    // Destructure keywords from each name
-
-
     // Map through skills
     const stacksList = stacks.map((stack, index) => {
         return (
             <ul key={stack + index}>
                 <li className="space-x-3">
                     <span className="font-bold">{stack.name}</span>
+                    {/* Map each keyword from each stack name */}
+                    {stack.keywords.map((keyword, index, arr) => {
+                        if (index === arr.length - 1) {
+                            // Last keyword
+                            return (
+                                <span key={keyword + index} className="text-sm text-gray-600">{keyword}</span>
+                            )
+                        } else {
+                            // Not last keyword
+                            return (
+                                <span key={keyword + index} className="text-sm text-gray-600">{keyword}, </span>
+                            )
+                        }
+                    })}
                 </li>
             </ul>
         )
