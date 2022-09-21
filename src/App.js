@@ -16,12 +16,12 @@ import resumeData from './resumeData.js'
 // App
 function App() {
   return (
-    <main class="h-full w-screen flex flex-col">
-      <div class="max-w-6xl p-6 mx-auto flex-grow">
-        <div class="grid grid-cols-12 gap-0 lg:gap-0 h-full mt-6">
+    <main className="h-full w-screen flex flex-col">
+      <div className="max-w-6xl p-6 mx-auto flex-grow">
+        <div className="grid grid-cols-12 gap-0 lg:gap-0 h-full mt-6">
           <Me resumeData={resumeData} />
-          <div class="lg:col-span-8 col-span-12 w-full h-full">
-            <div class="flex flex-col space-y-6">
+          <div className="lg:col-span-8 col-span-12 w-full h-full">
+            <div className="flex flex-col space-y-6">
               <AboutMe />
               <Projects resumeData={resumeData} />
               <WorkExp resumeData={resumeData} />

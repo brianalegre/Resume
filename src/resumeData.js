@@ -66,7 +66,7 @@ const resumeData = [
                     "Improved CI/CD pipeline to make deployments faster and more reliable.",
                     "Developed new features to help users navigate through potential leads by location or relevent skills."
                 ],
-                "startDate": "2012-10-01",
+                "startDate": "October 1st, 2012",
                 "start": {
                     "year": 2012,
                     "month": 10

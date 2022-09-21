@@ -7,6 +7,7 @@ function Stacks(resumeData) {
 
     // Destructure resumeData
     const { stacks } = resumeData.resumeData[3]
+    console.log(stacks)
 
     // Destructure keywords from each name
 
@@ -14,11 +15,9 @@ function Stacks(resumeData) {
     // Map through skills
     const stacksList = stacks.map((stack, index) => {
         return (
-            <ul>
-                <li key={stack + index} className="space-x-3">
-                    <span class="font-bold">{stack.name}</span>
-                    {/* Map each keyword from stacks */}
-                    {/* <span class="space-x-1 text-gray-600">{{ #each keywords }} <span>{{ this}}</span>{{ #if @last}}{{ else}}, {{/if}}{{/ each}}</span> */}
+            <ul key={stack + index}>
+                <li className="space-x-3">
+                    <span className="font-bold">{stack.name}</span>
                 </li>
             </ul>
         )
