@@ -15,16 +15,14 @@ function Projects(resumeData) {
     // Map through projects
     const projectList = projects.map((project, index) => {
         return (
-            <div key={project.name + index} className="grid grid-cols-2 gap-5">
-                <div className="col-span-2 lg:col-span-1 text-gray-600">
-                    <div className="flex items-center space-x-2">
-                        <p className="font-bold text-gray-800">{project.name}</p>
-                        <a aria-label="GitHub" href={project.githubUrl}><AiFillGithub className='hover:text-fuchsia-700' /> </a>
-                        <a aria-label={project.name} href={project.website}><FiExternalLink className='hover:text-fuchsia-700' /> </a>
-                    </div>
-                    <p>{project.summary}</p>
+            <div key={project.name + index} className="col-span-2 lg:col-span-1 text-gray-600">
+                <div className="flex items-center space-x-2">
+                    <p className="font-bold text-gray-800">{project.name}</p>
+                    <a aria-label="GitHub" href={project.githubUrl}><AiFillGithub className='hover:text-fuchsia-700' /> </a>
+                    <a aria-label={project.name} href={project.website}><FiExternalLink className='hover:text-fuchsia-700' /> </a>
                 </div>
-            </div >
+                <p>{project.summary}</p>
+            </div>
         )
     });
 
@@ -36,8 +34,10 @@ function Projects(resumeData) {
                 </p>
                 <div className="bg-fuchsia-700 absolute bg-opacity-50 w-12 top-4 z-10 h-6 rounded-sm"></div>
             </div>
-            {/* Display Projects */}
-            {projectList}
+            <div className="grid grid-cols-2 gap-5">
+                {/* Display Projects */}
+                {projectList}
+            </div>
         </div>
     )
 
