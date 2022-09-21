@@ -111,7 +111,8 @@ const resumeData = [
             },
             {
                 "keywords": [
-                    "Node",
+                    "NodeJS",
+                    "ExpressJS",
                     "MongoDB",
                     "Mongoose",
                     "MySQL",
@@ -119,7 +120,6 @@ const resumeData = [
                     "NoSQL",
                     "GraphQL",
                     "Apollo GraphQL",
-                    "ExpressJS",
                     "Sequelize",
                 ],
                 "name": "Backend"
