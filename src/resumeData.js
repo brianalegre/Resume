@@ -62,9 +62,11 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    "Developed an improved system for querieing people information, and enriching data with outside sources.",
-                    "Improved CI/CD pipeline to make deployments faster and more reliable.",
-                    "Developed new features to help users navigate through potential leads by location or relevent skills."
+                    "Develop test scenarios, test plans, and test procedures for drive qualification",
+                    "Automate and streamline testing processes to reduce bottlenecks and improve efficiency",
+                    "Analyze and compare actual to expected performance results and report all deviations",
+                    "Cooperatively work with other engineering teams to achieve win-win solution and results",
+                    "Debug test failures with functional teams and track issue resolution via issue tracking report"
                 ],
                 "startDate": "October 1st, 2012",
                 "start": {
