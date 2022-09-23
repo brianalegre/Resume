@@ -22,12 +22,17 @@ function WorkExp(resumeData) {
                         | {company.location}
                     </p>
                     <ul className="list-inside my-2 list-disc">
-                        <li className="ml-4"> {company.highlights[0]}</li>
+                        {/* <li className="ml-4"> {company.highlights[0]}</li>
                         <li className="ml-4"> {company.highlights[1]}</li>
                         <li className="ml-4"> {company.highlights[2]}</li>
                         <li className="ml-4"> {company.highlights[3]}</li>
-                        <li className="ml-4"> {company.highlights[4]}</li>
-
+                        <li className="ml-4"> {company.highlights[4]}</li> */}
+                        {company.highlights.map((highlight, index) => {
+                            return (
+                                <li key={highlight + index} className="ml-4"> {highlight}</li>
+                            )
+                        }
+                        )}
                     </ul>
                 </li>
             </ul>
