@@ -66,7 +66,15 @@ const resumeData = [
                     "Automate and streamline testing processes to reduce bottlenecks and improve efficiency",
                     "Analyze and compare actual to expected performance results and report all deviations",
                     "Cooperatively work with other engineering teams to achieve win-win solution and results",
-                    "Debug test failures with functional teams and track issue resolution via issue tracking report"
+                    "Debug test failures with functional teams and track issue resolution via issue tracking report",
+                    "Lead a team of 10 technicians to achieve daily goals and objectives",
+                    "Manage and maintain a team of 10 technicians",
+                    "Train and mentor new technicians",
+                    "Create processes and procedures for new and existing test methods",
+                    "Create and maintain test documentation",
+                    "Create and maintain test equipment documentation",
+
+
                 ],
                 "startDate": "October 1st, 2012",
                 "start": {
