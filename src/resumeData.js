@@ -62,8 +62,9 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    "Develop test scenarios, test plans, and test procedures for drive qualification",
                     "Automate and streamline testing processes to reduce bottlenecks and improve efficiency",
+                    "Developed a web application to automate the process of testing and collecting data from hard drives",
+                    "Develop test scenarios, test plans, and test procedures for drive qualification",
                     "Analyze and compare actual to expected performance results and report all deviations",
                     "Cooperatively work with other engineering teams to achieve win-win solution and results",
                     "Debug test failures with functional teams and track issue resolution via issue tracking report",
