@@ -62,19 +62,12 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    "Automate and streamline testing processes to reduce bottlenecks and improve efficiency",
-                    "Developed a web application to automate the process of testing and collecting data from hard drives",
-                    "Develop test scenarios, test plans, and test procedures for drive qualification",
-                    "Analyze and compare actual to expected performance results and report all deviations",
+                    `Currently working on developing firmware valdiation test monitoring systems that streamlines lab and post test processes for global teams - alerting users on actionable test status for over 350,000 executed tests per quarter across multiple concurrent pipelines. (React, Node, Express, MongoDB)
+                    `,
+                    "Lead feature, continuous integration, performance, and final-test validation teams by implementing agile methodologies - improving communication and removing critical roadblocks while meeting goals and stakeholder expectations",
+                    "Automate and streamline testing processes to reduce bottlenecks and improve efficiency (Powershell, Batch, Bash)",
+                    "Debug script failures and track issue resolution via internal issue tracking system",
                     "Cooperatively work with other engineering teams to achieve win-win solution and results",
-                    "Debug test failures with functional teams and track issue resolution via issue tracking report",
-                    "Lead a team of 10 technicians to achieve daily goals and objectives",
-                    "Manage and maintain a team of 10 technicians",
-                    "Train and mentor new technicians",
-                    "Create processes and procedures for new and existing test methods",
-                    "Create and maintain test documentation",
-                    "Create and maintain test equipment documentation",
-
 
                 ],
                 "startDate": "October 1st, 2012",
