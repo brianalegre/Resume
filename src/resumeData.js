@@ -148,7 +148,7 @@ const resumeData = [
         "me": {
             "name": "Brian Alegre",
             "picture": "./images/selfie.jpg",
-            "title": "Software Engineer",
+            "title": "Software Engineer | Full Stack Developer",
             "email": "brianalegre1231@gmail.com",
             "location": {
                 "city": "Orange County",
