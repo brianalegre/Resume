@@ -29,9 +29,9 @@ function Me(resumeData) {
             <p className="text-sm">{me.location.city}</p>
             <p className="text-sm">{me.location.region}, {me.location.countryCode}</p>
             <div className="space-x-3 py-3 flex items-center">
-                <a aria-label={me.profiles[0].network} href={me.profiles[0].network.url}> <BsGithub className='hover:text-fuchsia-700' /> </a>
-                <a aria-label={me.profiles[1].network} href={me.profiles[1].network.url}> <AiFillLinkedin className='hover:text-fuchsia-700' /> </a>
-                <a aria-label={me.profiles[2].network} href={me.profiles[2].network.url}> <CgProfile className='hover:text-fuchsia-700' /></a>
+                <a aria-label={me.profiles[0].network} href={me.profiles[0].url} target='_blank' rel='noreferrer'> <BsGithub className='hover:text-fuchsia-700' /> </a>
+                <a aria-label={me.profiles[1].network} href={me.profiles[1].url} target='_blank' rel='noreferrer'> <AiFillLinkedin className='hover:text-fuchsia-700' /> </a>
+                <a aria-label={me.profiles[2].network} href={me.profiles[2].url} target='_blank' rel='noreferrer'> <CgProfile className='hover:text-fuchsia-700' /></a>
             </div>
         </div >
     );
