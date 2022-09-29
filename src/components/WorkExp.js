@@ -14,7 +14,7 @@ function WorkExp(resumeData) {
             <ul key={company + index} className="text-gray-600">
                 <li>
                     <p className="space-x-2">
-                        <a href="{{website}}" className="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out {{../hoverAccent}}">{company.company}</a>
+                        <a href={company.website} target='_blank' rel='noreferrer' className="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out {{../hoverAccent}}">{company.company}</a>
                         <span>{company.position}</span>
                     </p>
                     <p className="text-sm">
