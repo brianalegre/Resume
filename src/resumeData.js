@@ -109,7 +109,8 @@ const resumeData = [
                     "Bootstrap",
                     "Tailwind",
                     "Material UI",
-                    "Framer Motion"
+                    "Framer Motion",
+                    "ASP.NET",
                 ],
                 "name": "Frontend"
             },
@@ -125,6 +126,7 @@ const resumeData = [
                     "GraphQL",
                     "Apollo GraphQL",
                     "Sequelize",
+                    "MSSQL",
                 ],
                 "name": "Backend"
             },
@@ -139,6 +141,7 @@ const resumeData = [
                     "Javascript",
                     "Bash",
                     "Powershell",
+                    "C#",
                 ],
                 "name": "Languages"
             },
