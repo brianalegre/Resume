@@ -141,7 +141,7 @@ const resumeData = [
                     "Javascript",
                     "Bash",
                     "Powershell",
-                    "C#",
+                    "C++",
                 ],
                 "name": "Languages"
             },
