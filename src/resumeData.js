@@ -127,6 +127,7 @@ const resumeData = [
                     "Apollo GraphQL",
                     "Sequelize",
                     "MSSQL",
+                    "SSMS",
                 ],
                 "name": "Backend"
             },
