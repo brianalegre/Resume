@@ -110,7 +110,6 @@ const resumeData = [
                     "Tailwind",
                     "Material UI",
                     "Framer Motion",
-                    "ASP.NET",
                 ],
                 "name": "Frontend"
             },
@@ -128,6 +127,7 @@ const resumeData = [
                     "Sequelize",
                     "MSSQL",
                     "SSMS",
+                    "ASP.NET",
                 ],
                 "name": "Backend"
             },
