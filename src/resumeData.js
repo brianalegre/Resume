@@ -62,12 +62,11 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    `Currently working on developing firmware valdiation test monitoring systems that streamlines lab and post test processes for global teams - alerting users on actionable test status for over 350,000 executed tests per quarter across multiple concurrent pipelines. (React, Node, Express, MongoDB)
-                    `,
-                    "Lead feature, continuous integration, performance, and final-test validation teams by implementing agile methodologies - improving communication and removing critical roadblocks while meeting goals and stakeholder expectations",
-                    "Automate and streamline testing processes to reduce bottlenecks and improve efficiency (Powershell, Batch, Bash)",
-                    "Debug script failures and track issue resolution via internal issue tracking system",
-                    "Cooperatively work with other engineering teams to achieve win-win solution and results",
+                    "Employed Powershell, Batch, and Bash scripting, along with TortoiseSVN for versioning, to automate and optimize testing processes. This initiative led to a substantial reduction in bottlenecks, resulting in improved overall efficiency.",
+                    "Successfully refactored legacy code for test automation procedures and methodologies, leading to notable enhancements in styling, functionality, and readability. The refactoring efforts significantly improved the ease of implementation. Employed Powershell and TortoiseSVN for efficient code management and version control",
+                    "Debugged script failures and tracked issue resolution through an internal issue tracking system, ensuring a swift and effective resolution of technical challenges.",
+                    "Effectively managed and maintained an internal website using C#, ASP.NET, MSSQL, JavaScript, and CSS to accurately track server uptime and storage status.",
+                    "Collaborate closely with engineering teams, driving collaborative efforts towards win-win solutions and achieving exceptional outcomes.",
 
                 ],
                 "startDate": "October 1st, 2012",
