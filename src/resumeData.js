@@ -62,11 +62,12 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    "Employed Powershell, Batch, and Bash scripting, along with TortoiseSVN for versioning, to automate and optimize testing processes. This initiative led to a substantial reduction in bottlenecks, resulting in improved overall efficiency.",
-                    "Successfully refactored legacy code for test automation procedures and methodologies, leading to notable enhancements in styling, functionality, and readability. The refactoring efforts significantly improved the ease of implementation. Employed Powershell and TortoiseSVN for efficient code management and version control",
-                    "Debugged script failures and tracked issue resolution through an internal issue tracking system, ensuring a swift and effective resolution of technical challenges.",
-                    "Effectively managed and maintained an internal website using C#, ASP.NET, MSSQL, JavaScript, and CSS to accurately track server uptime and storage status.",
+                    "Employed Powershell, Batch, and Bash scripting, along with implementing TortoiseSVN for versioning, to automate and optimize the testing processes. The initiative led to a substantial reduction in testing time. Prior to automation, the average testing time was 72 hours. After implementing the automated scripts and version control system, this time was reduced to 15 hours per test suite, resulting in a 79% reduction of testing time. Employed Powershell, Batch, and Bash scripting, along with TortoiseSVN for versioning, to automate and optimize testing processes. This initiative led to a substantial reduction in bottlenecks, resulting in improved overall efficiency.",
+                    "Successfully refactored legacy code for test automation procedures and methodologies, resulting in notable enhancements in functionality, readability, and ease of implementation. The refactoring efforts positively impacted the efficiency and effectiveness of test automation, enabling streamlined test execution and improved maintainability.",
+                    "Implemented robust error handling mechanisms within the test scripts to accurately identify and handle errors encountered during test execution. This critical enhancement ensured that performance results were not distorted by unrelated errors, resulting in more reliable performance metrics.",
+                    "Effectively managed and maintained an internal Web Application utilizing ASP.NET and MSSQL to accurately track server uptime and storage status. This Web Application ensured seamless monitoring of critical server infrastructure, enabling proactive maintenance and minimizing downtime.",
                     "Collaborate closely with engineering teams, driving collaborative efforts towards win-win solutions and achieving exceptional outcomes.",
+                    "Maintain accurate documentation of test procedures, results, and equipment calibration records to ensure compliance with industry standards and regulations."
 
                 ],
                 "startDate": "October 1st, 2012",
