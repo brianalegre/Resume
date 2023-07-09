@@ -23,10 +23,10 @@ function App() {
           <div className="lg:col-span-8 col-span-12 w-full h-full">
             <div className="flex flex-col space-y-6">
               <AboutMe />
-              <Projects resumeData={resumeData} />
-              <WorkExp resumeData={resumeData} />
-              <Education resumeData={resumeData} />
               <Stacks resumeData={resumeData} />
+              <WorkExp resumeData={resumeData} />
+              <Projects resumeData={resumeData} />
+              <Education resumeData={resumeData} />
             </div>
           </div>
         </div>
