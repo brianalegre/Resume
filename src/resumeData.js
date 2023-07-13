@@ -6,7 +6,7 @@ const resumeData = [
                 "name": "No Free Toes",
                 "displayName": "No Free Toes",
                 "summary": "A full stack application using the MERN stack. It is a booking platform for service-based businesses like, 'Hair Cuts, Eye Lashes, etc...",
-                "website": "https://nofreetoes.herokuapp.com/",
+                "website": "https://nofreetoes-v1-ba30a70603ff.herokuapp.com/service/6334e8d0f66dfcf82204699f",
                 "githubUrl": "https://github.com/brianalegre/No-Free-Toes",
                 "primaryLanguage": "Javascript"
             },
