@@ -6,7 +6,7 @@ const resumeData = [
                 "name": "No Free Toes",
                 "displayName": "No Free Toes",
                 "summary": "A full stack application using the MERN stack. It is a booking platform for service-based businesses like, 'Hair Cuts, Eye Lashes, etc...",
-                "website": "https://nofreetoes-v1-ba30a70603ff.herokuapp.com/service/6334e8d0f66dfcf82204699f",
+                "website": "https://no-free-toes-v2-cf42c7c1cbf7.herokuapp.com/",
                 "githubUrl": "https://github.com/brianalegre/No-Free-Toes",
                 "primaryLanguage": "Javascript"
             },
@@ -14,7 +14,7 @@ const resumeData = [
                 "name": "OldEgg",
                 "displayName": "OldEgg",
                 "summary": "OldEgg is a full-stack e-commerce application for buying electronics",
-                "website": "https://oldegg.herokuapp.com/",
+                "website": "https://oldegg-v2-5432d4798f08.herokuapp.com/",
                 "githubUrl": "https://github.com/brianalegre/OldEgg",
                 "primaryLanguage": "Javascript"
             },
