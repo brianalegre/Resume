@@ -30,7 +30,7 @@ const resumeData = [
                 "name": "Tech Blog",
                 "displayName": "Tech Blog",
                 "summary": "Tech Blog is a full-stack application, where uesr can post their thoughts, and comment on other users' posts",
-                "website": "https://alegre-techblog.herokuapp.com/",
+                "website": "https://alegre-techblog-v1-3aa2ffff496c.herokuapp.com/",
                 "githubUrl": "https://github.com/brianalegre/14-MVC-Techblog",
                 "primaryLanguage": "Javascript"
             },
