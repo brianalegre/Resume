@@ -99,8 +99,10 @@ const resumeData = [
         "stacks": [
             {
                 "keywords": [
+                    "NextJS",
                     "React",
-                    "Javascript",
+                    "JavaScript",
+                    "jQuery",
                     "HTML",
                     "Figma",
                     "CSS",
@@ -115,32 +117,31 @@ const resumeData = [
                 "keywords": [
                     "NodeJS",
                     "ExpressJS",
-                    "MongoDB",
+                    "ASP.NET",
                     "Mongoose",
-                    "MySQL",
-                    "AWS",
-                    "NoSQL",
                     "GraphQL",
                     "Apollo GraphQL",
-                    "Sequelize",
-                    "MSSQL",
-                    "SSMS",
-                    "ASP.NET",
                 ],
                 "name": "Backend"
             },
             {
                 "keywords": [
                     "AWS S3",
+                    "MongoDB",
+                    "MySQL",
+                    "MSSQL",
+
                 ],
-                "name": "DevOps"
+                "name": "Database"
             },
             {
                 "keywords": [
                     "Javascript",
+                    "jQuery",
                     "Bash",
                     "Powershell",
                     "C#",
+
                 ],
                 "name": "Languages"
             },
