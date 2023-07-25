@@ -62,11 +62,10 @@ const resumeData = [
                 "isCurrentRole": true,
                 "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
                 "highlights": [
-                    "Effectively managed and maintained an internal Web Application utilizing ASP.NET and MSSQL to accurately track server uptime and storage status. This Web Application ensured seamless monitoring of critical server infrastructure, enabling proactive maintenance and minimizing downtime.",
-                    "Delivered a remarkable 79% reduction in testing time by implementing strategic automation using Powershell, Batch, and Bash scripting, alongside TortoiseSVN versioning. Reduced average testing time from 72 to 15 hours per test suite, optimizing testing processes significantly.",
-                    "Successfully refactored legacy code for test automation, resulting in a 40% reduced failure rate. Utilizing modular components for re-usable code enhanced functionality, readability, and implementation ease, leading to 25% faster test development. The improved process streamlined test execution and maintainability, achieving a 30% increase in overall testing efficiency.",
-                    "Implemented robust error handling mechanisms within the test scripts to accurately identify and handle errors encountered during test execution. This critical enhancement ensured that performance results were not distorted by unrelated errors, resulting in a 95% reduction in false-positive test results, leading to more reliable performance metrics.",
-                    "Maintain accurate documentation of test procedures, results, and equipment calibration records to ensure compliance with industry standards and regulations."
+"Spearheaded the development of web application features that reduced manual test processes by 80% and server storage management.",
+"Reduced 80% of manual test processes - which reduced the average testing time from 1440 to 300 hours per test suite.",
+"Created a server storage monitoring system which alerted users on actionable items to help maintain storage threshold to effectively store server logs and uptime.",
+"Maintained accurate documentation of test procedures, results, and equipment calibration records to ensure compliance with industry standards and regulations."
                 ],
                 "startDate": "October 1st, 2012",
                 "start": {
